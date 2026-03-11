@@ -1,21 +1,33 @@
-<<<<<<< HEAD
-# untitled
+# Currency Converter (Flutter)
 
-A new Flutter project.
+A simple mobile application built with **Flutter** that converts **Brazilian Real (BRL) to US Dollar (USD)** using real-time exchange rates from the HG Brasil Finance API.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+* Convert BRL to USD using live exchange rates
+* Real-time data fetched
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Flutter
+* Dart
+* REST API integration
+* HTTP requests
+* JSON parsing
+* State management using `setState`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# currency-converter-flutter
-Simple app showing the use of API built with flutter
->>>>>>> 1324194901376dbc34e5b9fbd12744f177fbb00f
+## API Used
+
+HG Brasil Finance API
+https://hgbrasil.com/status/finance
+
+## How it works
+
+1. The user enters an amount in BRL.
+2. The app sends a request to the HG Brasil Finance API.
+3. The API returns the current exchange rate.
+4. The app calculates the converted value and displays it on the screen.
+
+## Author
+
+Allan Mendes
